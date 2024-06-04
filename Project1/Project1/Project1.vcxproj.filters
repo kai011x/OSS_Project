@@ -54,15 +54,6 @@
     <ClInclude Include="Libraries\ImGui\ImGuiFileDialogConfig.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Libraries\ImGui\imstb_rectpack.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Libraries\ImGui\imstb_textedit.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Libraries\ImGui\imstb_truetype.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="FrameWork\Buffer\ConstBuffer.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>

@@ -176,16 +176,23 @@
     <ClInclude Include="FrameWork\Utility\Singleton.h" />
     <ClInclude Include="Libraries\DirectXTex\DirectXTex.h" />
     <ClInclude Include="Libraries\ImGui\dirent\dirent.h" />
-    <ClInclude Include="Libraries\ImGui\imconfig.h" />
-    <ClInclude Include="Libraries\ImGui\imgui.h" />
+    <ClInclude Include="Libraries\ImGui\imconfig.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGui\imgui.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="Libraries\ImGui\ImGuiFileDialog.h" />
     <ClInclude Include="Libraries\ImGui\ImGuiFileDialogConfig.h" />
-    <ClInclude Include="Libraries\ImGui\imgui_impl_dx11.h" />
-    <ClInclude Include="Libraries\ImGui\imgui_impl_win32.h" />
-    <ClInclude Include="Libraries\ImGui\imgui_internal.h" />
-    <ClInclude Include="Libraries\ImGui\imstb_rectpack.h" />
-    <ClInclude Include="Libraries\ImGui\imstb_textedit.h" />
-    <ClInclude Include="Libraries\ImGui\imstb_truetype.h" />
+    <ClInclude Include="Libraries\ImGui\imgui_impl_dx11.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGui\imgui_impl_win32.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGui\imgui_internal.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="Managers\GameManager.h" />
     <ClInclude Include="Managers\SceneManager.h" />
     <ClInclude Include="Objects\2D\Anime_2D\Anime_2D.h" />
