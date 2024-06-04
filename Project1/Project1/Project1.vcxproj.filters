@@ -27,9 +27,6 @@
     <ClInclude Include="Project1.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Libraries\DirectXTex\DirectXTex.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="Libraries\ImGui\dirent\dirent.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
@@ -449,9 +446,6 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Libraries\DirectXTex\DirectXTex.inl">
-      <Filter>헤더 파일</Filter>
-    </None>
     <None Include="Shaders\PixelHeader.hlsli" />
     <None Include="Shaders\VertexHeader.hlsli" />
   </ItemGroup>

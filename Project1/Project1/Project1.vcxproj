@@ -174,7 +174,6 @@
     <ClInclude Include="FrameWork\Utility\BinaryReader.h" />
     <ClInclude Include="FrameWork\Utility\BinaryWriter.h" />
     <ClInclude Include="FrameWork\Utility\Singleton.h" />
-    <ClInclude Include="Libraries\DirectXTex\DirectXTex.h" />
     <ClInclude Include="Libraries\ImGui\dirent\dirent.h" />
     <ClInclude Include="Libraries\ImGui\imconfig.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -259,7 +258,9 @@
     <ClCompile Include="FrameWork\Utility\BinaryReader.cpp" />
     <ClCompile Include="FrameWork\Utility\BinaryWriter.cpp" />
     <ClCompile Include="FrameWork\Utility\Utility.cpp" />
-    <ClCompile Include="Libraries\ImGui\ImGuiFileDialog.cpp" />
+    <ClCompile Include="Libraries\ImGui\ImGuiFileDialog.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="Managers\GameManager.cpp" />
     <ClCompile Include="Managers\SceneManager.cpp" />
     <ClCompile Include="Objects\2D\Anime_2D\Anime_2D.cpp" />
@@ -294,7 +295,6 @@
     <Image Include="small.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Libraries\DirectXTex\DirectXTex.inl" />
     <None Include="Shaders\PixelHeader.hlsli" />
     <None Include="Shaders\VertexHeader.hlsli" />
   </ItemGroup>
