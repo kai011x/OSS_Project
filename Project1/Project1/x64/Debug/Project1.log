@@ -1,2 +1,11 @@
-﻿  Project1.cpp
-  Project1.vcxproj -> D:\OSS_project\OSS_Project\Project1\x64\Debug\Project1.exe
+﻿  Framework.cpp
+D:\OSS_project\OSS_Project\Project1\Project1\Framework.cpp(1,10): fatal  error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Project1.pch': No such file or directory
+  ImGuiFileDialog.cpp
+D:\OSS_project\OSS_Project\Project1\Project1\Libraries\ImGui\ImGuiFileDialog.cpp(71,1): warning C4005: 'stricmp': 매크로 재정의
+D:\OSS_project\OSS_Project\Project1\Project1\Libraries\ImGui\ImGuiFileDialog.cpp(56): message : 'stricmp'의 이전 정의를 참조하십시오.
+D:\OSS_project\OSS_Project\Project1\Project1\Libraries\ImGui\ImGuiFileDialog.cpp(77,1): warning C4005: 'PATH_SEP': 매크로 재정의
+D:\OSS_project\OSS_Project\Project1\Project1\Libraries\ImGui\ImGuiFileDialog.cpp(64): message : 'PATH_SEP'의 이전 정의를 참조하십시오.
+D:\OSS_project\OSS_Project\Project1\Project1\Libraries\ImGui\ImGuiFileDialog.cpp(5546,1): fatal  error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "Framework.h"'을(를) 소스에 추가하시겠습니까?
+  Project1.cpp
+D:\OSS_project\OSS_Project\Project1\Project1\Project1.cpp(4,10): fatal  error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Project1.pch': No such file or directory
+  코드를 생성하고 있습니다...

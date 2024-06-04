@@ -6,17 +6,17 @@ HW_Pacman_Map::HW_Pacman_Map()
 	terrain = new Quad({100,100});
 	terrain->Tag() = "Terrain";
 	terrain->Getmaterial()->SetDiffuseMap(L"TextData/fieldstone_DM.png");
-	terrain->Getmaterial()->SetShader(L"Shaders/HomeworkShaders/PackMan_Shader/PackManShader_Texture.hlsl");
+	terrain->Getmaterial()->SetShader(L"Shaders/PacManShaders/PackMan_Shader/PackManShader_Texture.hlsl");
 
 	terrain2 = new Quad({ 100,100 });
 	terrain2->Tag() = "Terrain2";
 	terrain2->Getmaterial()->SetDiffuseMap(L"TextData/fieldstone_DM.png");
-	terrain2->Getmaterial()->SetShader(L"Shaders/HomeworkShaders/PackMan_Shader/PackManShader_Texture.hlsl");
+	terrain2->Getmaterial()->SetShader(L"Shaders/PacManShaders/PackMan_Shader/PackManShader_Texture.hlsl");
 	terrain2->Load();
 
 	cube = new Cube({ 1,1,1 });
 	cube->Getmaterial()->SetDiffuseMap(L"Textures/Landscape/Floor.png");
-	cube->Getmaterial()->SetShader(L"Shaders/HomeworkShaders/HW_Instancing_Light.hlsl");
+	cube->Getmaterial()->SetShader(L"Shaders/PacManShaders/HW_Instancing_Light.hlsl");
 	Create_Walls();
 
 	aStar = new AStar();

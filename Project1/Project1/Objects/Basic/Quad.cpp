@@ -1,7 +1,7 @@
 #include "Framework.h"
 #include "Quad.h"
 
-Quad::Quad(Float2 size) : GameObject(L"Shaders/HomeworkShaders/PackMan_Shader/PackManShader_Texture.hlsl"), size(size)
+Quad::Quad(Float2 size) : GameObject(L"Shaders/PacManShaders/PackMan_Shader/PackManShader_Texture.hlsl"), size(size)
 {
 	CreateMesh();
 	cameraBuffer = new CameraBuffer();

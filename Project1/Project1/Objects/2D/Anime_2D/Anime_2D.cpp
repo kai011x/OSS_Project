@@ -8,7 +8,7 @@ Anime_2D::Anime_2D(wstring file, float width, float height, Float2 left_top_pixe
 	material = new Material();
 	cameraBuffer = new CameraBuffer();
 	material->SetDiffuseMap(file);
-	material->SetShader(L"Shaders/HomeworkShaders/PackMan_Shader/PackMan_Monster_Shader.hlsl");
+	material->SetShader(L"Shaders/PacManShaders/PackMan_Shader/PackMan_Monster_Shader.hlsl");
 
 	UINT width_texture = material->GetDMap(0)->Width();
 	UINT height_texture = material->GetDMap(0)->Height();
