@@ -1,0 +1,4 @@
+key,name,Attack,Hp,Move_Speed,Rot_Speed
+0,Zombie,10,100,2,1
+1,Drake,20,200,10,2
+2,Arissa,20,150,6,1
