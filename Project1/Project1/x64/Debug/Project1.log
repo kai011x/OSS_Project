@@ -1,11 +1,288 @@
 ﻿  Framework.cpp
-D:\OSS_project\OSS_Project\Project1\Project1\Framework.cpp(1,10): fatal  error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Project1.pch': No such file or directory
-  ImGuiFileDialog.cpp
-D:\OSS_project\OSS_Project\Project1\Project1\Libraries\ImGui\ImGuiFileDialog.cpp(71,1): warning C4005: 'stricmp': 매크로 재정의
-D:\OSS_project\OSS_Project\Project1\Project1\Libraries\ImGui\ImGuiFileDialog.cpp(56): message : 'stricmp'의 이전 정의를 참조하십시오.
-D:\OSS_project\OSS_Project\Project1\Project1\Libraries\ImGui\ImGuiFileDialog.cpp(77,1): warning C4005: 'PATH_SEP': 매크로 재정의
-D:\OSS_project\OSS_Project\Project1\Project1\Libraries\ImGui\ImGuiFileDialog.cpp(64): message : 'PATH_SEP'의 이전 정의를 참조하십시오.
-D:\OSS_project\OSS_Project\Project1\Project1\Libraries\ImGui\ImGuiFileDialog.cpp(5546,1): fatal  error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "Framework.h"'을(를) 소스에 추가하시겠습니까?
-  Project1.cpp
-D:\OSS_project\OSS_Project\Project1\Project1\Project1.cpp(4,10): fatal  error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Project1.pch': No such file or directory
+D:\OSS_project\OSS_Project\Project1\Project1\FrameWork\Utility\Singleton.h(1,1): warning C4828: 파일에 0x396 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 949).
+D:\OSS_project\OSS_Project\Project1\Project1\FrameWork\Render\Texture.h(17,15): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\FrameWork\Render\Texture.h(18,16): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\FrameWork\Enviroment\Camera.h(39,13): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+D:\OSS_project\OSS_Project\Project1\Project1\FrameWork\Enviroment\Camera.h(40,19): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\LandScape\Terrain.h(62,39): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\LandScape\Terrain.h(62,33): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\Character\Monster\PackMan_Monster\HW_Packman_Monster.h(1,1): warning C4828: 파일에 0x4c7 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 949).
+  AStar.cpp
+D:\OSS_project\OSS_Project\Project1\Project1\Algorithm\AStar.cpp(56,47): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\Algorithm\AStar.cpp(77,47): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\Algorithm\AStar.cpp(224,36): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\Algorithm\AStar.cpp(243,36): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\Algorithm\AStar.cpp(289,29): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Heap.cpp
+D:\OSS_project\OSS_Project\Project1\Project1\Algorithm\Heap.cpp(10,32): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\Algorithm\Heap.cpp(32,28): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Node.cpp
+  ConstBuffer.cpp
+  IndexBuffer.cpp
+  RawBuffer.cpp
+  StructuredBuffer.cpp
+  VertexBuffer.cpp
+  BoxCollider.cpp
+  CapsuleCollider.cpp
+  Collider.cpp
+D:\OSS_project\OSS_Project\Project1\Project1\FrameWork\Collision\Collider.cpp(30,38): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\FrameWork\Collision\Collider.cpp(61,99): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SphereCollider.cpp
+  Device.cpp
+  Camera.cpp
+D:\OSS_project\OSS_Project\Project1\Project1\FrameWork\Enviroment\Camera.h(39,13): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+D:\OSS_project\OSS_Project\Project1\Project1\FrameWork\Enviroment\Camera.h(40,19): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  Environment.cpp
+  GameMath.cpp
+  Transform.cpp
+  Model.cpp
+  ModelInstancing.cpp
+  ModelMesh.cpp
   코드를 생성하고 있습니다...
+D:\OSS_project\OSS_Project\Project1\Project1\FrameWork\Math\Vector3.h(74): warning C4715: 'Vector3::operator[]': 모든 제어 경로에서 값을 반환하지는 않습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\FrameWork\Math\Vector3.h(74): warning C4715: 'Vector3::operator[]': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  컴파일하고 있습니다...
+  ModelReader.cpp
+  Material.cpp
+  Mesh.cpp
+  Texture.cpp
+D:\OSS_project\OSS_Project\Project1\Project1\FrameWork\Render\Texture.cpp(63,38): warning C4267: '초기화 중': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ComputeShader.cpp
+  PixelShader.cpp
+  Shader.cpp
+  VertexShader.cpp
+D:\OSS_project\OSS_Project\Project1\Project1\FrameWork\Shader\VertexShader.cpp(92,40): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\FrameWork\Shader\VertexShader.cpp(107,22): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BlendState.cpp
+  DepthStencilState.cpp
+  RasterizerState.cpp
+  SamplerState.cpp
+  BinaryReader.cpp
+  BinaryWriter.cpp
+D:\OSS_project\OSS_Project\Project1\Project1\FrameWork\Utility\BinaryWriter.cpp(37,21): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\FrameWork\Utility\BinaryWriter.cpp(40,68): warning C4267: '인수': 'size_t'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\FrameWork\Utility\BinaryWriter.cpp(46,21): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\FrameWork\Utility\BinaryWriter.cpp(49,69): warning C4267: '인수': 'size_t'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Utility.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(2824,53): warning C4244: '인수': 'wchar_t'에서 'const _Elem'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(2664): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*>(_Iter,const _Iter)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(2664): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*>(_Iter,const _Iter)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3506): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<wchar_t*,0>(_Iter,_Iter,const _Alloc &)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=wchar_t *,
+              _Alloc=std::allocator<char>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3506): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<wchar_t*,0>(_Iter,_Iter,const _Alloc &)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=wchar_t *,
+              _Alloc=std::allocator<char>
+          ]
+D:\OSS_project\OSS_Project\Project1\Project1\FrameWork\Utility\Utility.cpp(6): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(const _Iter,const _Iter)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+          ]
+D:\OSS_project\OSS_Project\Project1\Project1\FrameWork\Utility\Utility.cpp(6): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(const _Iter,const _Iter)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+          ]
+  GameManager.cpp
+  SceneManager.cpp
+  Anime_2D.cpp
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\2D\Anime_2D\Anime_2D.cpp(60,63): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\2D\Anime_2D\Anime_2D.cpp(105,49): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Cube.cpp
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\Basic\Cube.cpp(110,106): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(682,68): warning C4244: '인수': '_Ty'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(829): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,float,float,float,int,int,int,int,int,int,int,int>(_Alloc &,_Objty *const ,float &&,float &&,float &&,int &&,int &&,int &&,int &&,int &&,int &&,int &&,int &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Alloc=std::allocator<Quad::VertexType>,
+              _Ty=VertexUVNormalTangent,
+              _Objty=VertexUVNormalTangent
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(840): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,float,float,float,int,int,int,int,int,int,int,int>(_Alloc &,_Objty *const ,float &&,float &&,float &&,int &&,int &&,int &&,int &&,int &&,int &&,int &&,int &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Alloc=std::allocator<Quad::VertexType>,
+              _Ty=VertexUVNormalTangent,
+              _Objty=VertexUVNormalTangent
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(816): message : 컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<float,float,float,int,int,int,int,int,int,int,int>(float &&,float &&,float &&,int &&,int &&,int &&,int &&,int &&,int &&,int &&,int &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=Quad::VertexType
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(822): message : 컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<float,float,float,int,int,int,int,int,int,int,int>(float &&,float &&,float &&,int &&,int &&,int &&,int &&,int &&,int &&,int &&,int &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=Quad::VertexType
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(902): message : 컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<float,float,float,int,int,int,int,int,int,int,int>(float &&,float &&,float &&,int &&,int &&,int &&,int &&,int &&,int &&,int &&,int &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=Quad::VertexType
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(904): message : 컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<float,float,float,int,int,int,int,int,int,int,int>(float &&,float &&,float &&,int &&,int &&,int &&,int &&,int &&,int &&,int &&,int &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=Quad::VertexType
+          ]
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\Basic\Cube.cpp(64): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::vector<Quad::VertexType,std::allocator<Quad::VertexType>>::emplace_back<float,float,float,int,int,int,int,int,int,int,int>(float &&,float &&,float &&,int &&,int &&,int &&,int &&,int &&,int &&,int &&,int &&)'에 대한 참조를 확인하세요.
+  GameObject.cpp
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\Basic\GameObject.cpp(40,38): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\Basic\GameObject.cpp(53,65): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Grid.cpp
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\Basic\Grid.cpp(37,88): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\Basic\Grid.cpp(55,29): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(682,68): warning C4244: '인수': '_Ty'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(829): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int,float,float,float,float,float>(_Alloc &,_Objty *const ,int &&,float &&,float &&,float &&,float &&,float &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Alloc=std::allocator<VertexColor>,
+              _Ty=VertexColor,
+              _Objty=VertexColor
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(840): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int,float,float,float,float,float>(_Alloc &,_Objty *const ,int &&,float &&,float &&,float &&,float &&,float &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Alloc=std::allocator<VertexColor>,
+              _Ty=VertexColor,
+              _Objty=VertexColor
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(816): message : 컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<int,float,float,float,float,float>(int &&,float &&,float &&,float &&,float &&,float &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=VertexColor
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(822): message : 컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<int,float,float,float,float,float>(int &&,float &&,float &&,float &&,float &&,float &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=VertexColor
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(902): message : 컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<int,float,float,float,float,float>(int &&,float &&,float &&,float &&,float &&,float &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=VertexColor
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(904): message : 컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<int,float,float,float,float,float>(int &&,float &&,float &&,float &&,float &&,float &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=VertexColor
+          ]
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\Basic\Grid.cpp(8): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::vector<VertexColor,std::allocator<VertexColor>>::emplace_back<int,float,float,float,float,float>(int &&,float &&,float &&,float &&,float &&,float &&)'에 대한 참조를 확인하세요.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(682,68): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(829): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int,int,int&,float,float,float>(_Alloc &,_Objty *const ,int &&,int &&,int &,float &&,float &&,float &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Alloc=std::allocator<VertexColor>,
+              _Ty=VertexColor,
+              _Objty=VertexColor
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(840): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int,int,int&,float,float,float>(_Alloc &,_Objty *const ,int &&,int &&,int &,float &&,float &&,float &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Alloc=std::allocator<VertexColor>,
+              _Ty=VertexColor,
+              _Objty=VertexColor
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(816): message : 컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<int,int,int&,float,float,float>(int &&,int &&,int &,float &&,float &&,float &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=VertexColor
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(822): message : 컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<int,int,int&,float,float,float>(int &&,int &&,int &,float &&,float &&,float &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=VertexColor
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(902): message : 컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<int,int,int&,float,float,float>(int &&,int &&,int &,float &&,float &&,float &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=VertexColor
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(904): message : 컴파일되는 함수 템플릿 인스턴스화 '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<int,int,int&,float,float,float>(int &&,int &&,int &,float &&,float &&,float &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=VertexColor
+          ]
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\Basic\Grid.cpp(25): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::vector<VertexColor,std::allocator<VertexColor>>::emplace_back<int,int,int&,float,float,float>(int &&,int &&,int &,float &&,float &&,float &&)'에 대한 참조를 확인하세요.
+  ModelObject.cpp
+  Quad.cpp
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\Basic\Quad.cpp(66,103): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Sphere.cpp
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\Basic\Sphere.cpp(69,34): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  HW_Character_Transform.cpp
+  HW_Hero.cpp
+  HW_Basic_Character.cpp
+  HW_Packman_Monster.cpp
+  DataManager.cpp
+  HW_Dungeon.cpp
+  HW_Pacman_Map.cpp
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\Dungeon\HW_Pacman_Map.cpp(103,44): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\Dungeon\HW_Pacman_Map.cpp(141,55): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\Dungeon\HW_Pacman_Map.cpp(208,93): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\Dungeon\HW_Pacman_Map.cpp(266,117): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Terrain.cpp
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\LandScape\Terrain.cpp(179,35): warning C4267: '=': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\LandScape\Terrain.cpp(218,18): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\LandScape\Terrain.cpp(260,17): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\LandScape\Terrain.cpp(261,17): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+  Material_File_Manager.cpp
+  HW_RectCollider.cpp
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\Object\Collider\HW_RectCollider.cpp(20,99): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OSS_project\OSS_Project\Project1\Project1\Objects\Object\Collider\HW_RectCollider.cpp(48,38): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  HW_Objects.cpp
+  HW_Map_Manager.cpp
+  HW_Object_Character.cpp
+  Project1.cpp
+  GridScene.cpp
+  HW_Scene.cpp
+  코드를 생성하고 있습니다...
+DirectXTex.lib(DirectXTexImage.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexImage.obj)' 또는 'D:\OSS_project\OSS_Project\Project1\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexDDS.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexDDS.obj)' 또는 'D:\OSS_project\OSS_Project\Project1\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexTGA.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexTGA.obj)' 또는 'D:\OSS_project\OSS_Project\Project1\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexWIC.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexWIC.obj)' 또는 'D:\OSS_project\OSS_Project\Project1\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexD3D11.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexD3D11.obj)' 또는 'D:\OSS_project\OSS_Project\Project1\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexUtil.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexUtil.obj)' 또는 'D:\OSS_project\OSS_Project\Project1\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexConvert.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexConvert.obj)' 또는 'D:\OSS_project\OSS_Project\Project1\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexCompress.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexCompress.obj)' 또는 'D:\OSS_project\OSS_Project\Project1\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexMipMaps.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexMipMaps.obj)' 또는 'D:\OSS_project\OSS_Project\Project1\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(BC.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(BC.obj)' 또는 'D:\OSS_project\OSS_Project\Project1\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(BC4BC5.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(BC4BC5.obj)' 또는 'D:\OSS_project\OSS_Project\Project1\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(BC6HBC7.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(BC6HBC7.obj)' 또는 'D:\OSS_project\OSS_Project\Project1\x64\Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+ImGui.lib(imgui.obj) : warning LNK4099: 'ImGui.pdb' PDB를 'ImGui.lib(imgui.obj)' 또는 'D:\OSS_project\OSS_Project\Project1\x64\Debug\ImGui.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+ImGui.lib(imgui_widgets.obj) : warning LNK4099: 'ImGui.pdb' PDB를 'ImGui.lib(imgui_widgets.obj)' 또는 'D:\OSS_project\OSS_Project\Project1\x64\Debug\ImGui.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+ImGui.lib(imgui_draw.obj) : warning LNK4099: 'ImGui.pdb' PDB를 'ImGui.lib(imgui_draw.obj)' 또는 'D:\OSS_project\OSS_Project\Project1\x64\Debug\ImGui.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+ImGui.lib(imgui_tables.obj) : warning LNK4099: 'ImGui.pdb' PDB를 'ImGui.lib(imgui_tables.obj)' 또는 'D:\OSS_project\OSS_Project\Project1\x64\Debug\ImGui.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+ImGui.lib(imgui_impl_dx11.obj) : warning LNK4099: 'ImGui.pdb' PDB를 'ImGui.lib(imgui_impl_dx11.obj)' 또는 'D:\OSS_project\OSS_Project\Project1\x64\Debug\ImGui.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+ImGui.lib(imgui_impl_win32.obj) : warning LNK4099: 'ImGui.pdb' PDB를 'ImGui.lib(imgui_impl_win32.obj)' 또는 'D:\OSS_project\OSS_Project\Project1\x64\Debug\ImGui.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     D:\OSS_project\OSS_Project\Project1\x64\Debug\Project1.lib 라이브러리 및 D:\OSS_project\OSS_Project\Project1\x64\Debug\Project1.exp 개체를 생성하고 있습니다.
+  Project1.vcxproj -> D:\OSS_project\OSS_Project\Project1\x64\Debug\Project1.exe

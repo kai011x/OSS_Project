@@ -202,7 +202,7 @@ using namespace GameMath;
 #include "Objects/DataManager//DataManager.h"
 
 // Scene Header
-//#include "Scene/Scene.h"
+#include "Scene/Scene.h"
 #include "Managers/GameManager.h"
 #include "Managers/SceneManager.h"
 

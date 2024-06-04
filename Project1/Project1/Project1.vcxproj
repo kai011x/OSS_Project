@@ -225,7 +225,9 @@
     <ClCompile Include="Algorithm\AStar.cpp" />
     <ClCompile Include="Algorithm\Heap.cpp" />
     <ClCompile Include="Algorithm\Node.cpp" />
-    <ClCompile Include="Framework.cpp" />
+    <ClCompile Include="Framework.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="FrameWork\Buffer\ConstBuffer.cpp" />
     <ClCompile Include="FrameWork\Buffer\IndexBuffer.cpp" />
     <ClCompile Include="FrameWork\Buffer\RawBuffer.cpp" />

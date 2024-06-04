@@ -5,7 +5,53 @@
       <FullPath>D:\OSS_project\OSS_Project\Project1\x64\Debug\Project1.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
-  <ContentFiles />
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>D:\OSS_project\OSS_Project\Project1\x64\Debug\Collider.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\OSS_project\OSS_Project\Project1\x64\Debug\Grid.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\OSS_project\OSS_Project\Project1\x64\Debug\Texture.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\OSS_project\OSS_Project\Project1\x64\Debug\Instancing.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\OSS_project\OSS_Project\Project1\x64\Debug\ModelAnimatorInstancing.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\OSS_project\OSS_Project\Project1\x64\Debug\ModelInstancing.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\OSS_project\OSS_Project\Project1\x64\Debug\Terrain.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\OSS_project\OSS_Project\Project1\x64\Debug\TerrainEditor.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\OSS_project\OSS_Project\Project1\x64\Debug\DiffuseLight.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\OSS_project\OSS_Project\Project1\x64\Debug\NormalMapping.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\OSS_project\OSS_Project\Project1\x64\Debug\SpecularLight.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\OSS_project\OSS_Project\Project1\x64\Debug\Model.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\OSS_project\OSS_Project\Project1\x64\Debug\HW_Instancing_Light.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\OSS_project\OSS_Project\Project1\x64\Debug\HW_Model_Animator_InstancingShader.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\OSS_project\OSS_Project\Project1\x64\Debug\HW_Model_InstancingShader.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
   <SatelliteDlls />
   <NonRecipeFileRefs />
 </Project>
