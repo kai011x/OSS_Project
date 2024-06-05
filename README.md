@@ -9,15 +9,15 @@
 * 플레이어의 위치와 코인의 위치를 확인할 수 있는 미니맵 구현
 * Vector 와 Matrix를 통한 충돌처리 계산
 
-실행방법
+실행방법:
 모든 파일을 다운 받은 후 solution을 켜서 빌드후 실행하면 된다. 
 
-실행예시
+실행예시:
 ![image](https://github.com/kai011x/OSS_Project/assets/48053180/c96a0108-c709-4e0a-a1ea-09d6e601cefc)
 ![image](https://github.com/kai011x/OSS_Project/assets/48053180/c96a0108-c709-4e0a-a1ea-09d6e601cefc)
 
 
-코드설명
+코드설명:
 FrameWork 폴더 안의 파일들을 통해 Direct3DX의 Rendering pipeline을 실행한다.(건드릴 필요 없음) 
 GridScne.cpp를 통해 맵을 가져올 수 있다.(건드릴 필요 없음)
 
@@ -34,7 +34,7 @@ Transform 클래스 안에 UpdateWorld() 함수를 Scene의 Update() 함수 안�
 Collider에는 GetMaterial()->SetDiffuseMap()을 통해 collider의 이미지를 입힐 수 있다.
 그후 GetMaterial()->SetShader()를 통해 사용할 Shader를 설정해야 된다. 
 
-To_do List
+To_do List:
 달리기 추가
 새로운 아이템 추가
 새로운 능력 추가
